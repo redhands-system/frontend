@@ -28,7 +28,10 @@ function LoginPage() {
 
     return (
         <div style={{ maxWidth: '400px', margin: '100px auto', padding: '20px' }}>
-            <h1>로그인</h1>
+            <h1>로그인 - Claude 테스트 🚀</h1>
+            <p style={{ color: '#666', marginBottom: '20px' }}>
+                Vercel 배포 테스트 중입니다!
+            </p>
 
             <form onSubmit={handleLogin}>
                 <div style={{ marginBottom: '15px' }}>
